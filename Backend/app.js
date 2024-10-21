@@ -7,7 +7,7 @@ const app = express();
 
 // Connect to the database
 connectDB();
-
+console.log("*********************")
 // Middleware
 app.use(express.json()); // To parse incoming JSON data
 
