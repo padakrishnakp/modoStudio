@@ -13,7 +13,6 @@ const getUsers = async (req, res) => {
 };
 
 const addUser = async (req, res) => {
-    console.log("*****")
   const { name, email, age } = req.body;
   try {
     const newUser = new User({ name, email, age });
